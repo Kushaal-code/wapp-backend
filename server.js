@@ -4,9 +4,9 @@ import Rooms from "./models/dbRooms.js";
 import Users from "./models/dbUsers.js";
 import cors from "cors";
 import { Server } from "socket.io";
-import users from "./routes/users"
-import rooms from "./routes/rooms";
-import messages from "./routes/messages";
+import users from "./routes/users.js"
+import rooms from "./routes/rooms.js";
+import messages from "./routes/messages.js";
 
 
 const app = express();
