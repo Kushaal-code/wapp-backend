@@ -1,5 +1,5 @@
 import express from "express";
-import Rooms from "../models/dbRooms"
+import Rooms from "../models/dbRooms.js"
 
 let router=express.Router();
 

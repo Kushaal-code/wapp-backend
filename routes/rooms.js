@@ -1,6 +1,6 @@
 import express from "express";
-import Rooms from "../models/dbRooms";
-import Users from "../models/dbUsers";
+import Rooms from "../models/dbRooms.js";
+import Users from "../models/dbUsers.js";
 
 let router=express.Router();
 
